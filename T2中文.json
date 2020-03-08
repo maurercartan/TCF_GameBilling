@@ -1,0 +1,91 @@
+{
+ "name": "象牙獲取數量",
+ "children": [
+  {
+   "name": "魔法獲取數量",
+   "children": [
+    {
+     "name": "科研加速使用數量",
+     "children": [
+      {
+        "name": "石頭消耗數量",
+        "children": [
+        {
+          "name": "象牙消耗數量",
+          "children": [
+          {"name": "TT", "value": 3534},
+          {"name": "科研：薩滿攻擊", "value": 5731}
+          ]
+        },
+        {
+          "name": "訓練加速使用數量",
+          "children": [
+          {"name": "PVP勝利次數", "value": 3534},
+          {"name": "建築：占卜台等級", "value": 5731}
+          ]
+        }
+        ]
+      },
+      {
+        "name": "科研：巨獸馴獸師",
+        "children": [
+        {"name": "石頭獲取數量", "value": 3534},
+        {"name": "FF", "value": 5731}
+        ]
+      }
+     ]
+    },
+    {
+     "name": "通用加速獲取數量",
+     "children": [
+          {"name": "TF", "value": 3534},
+          {"name": "TF", "value": 5731}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "在線時長",
+   "children": [
+    {
+     "name": "建築：冒險傳送門等級",
+     "children": [
+      {
+        "name": "魔法消耗數量",
+        "children": [
+        {"name": "科研：據點二", "value": 3534},
+        {"name": "PVE次數", "value": 5731}
+        ]
+      },
+      {
+        "name": "科研：吟唱者",
+        "children": [
+        {"name": "FF", "value": 3534},
+        {"name": "建築：兵營等級", "value": 5731}
+        ]
+      }
+     ]
+    },
+    {
+     "name": "建築加速獲取數量",
+     "children": [
+      {
+        "name": "肉獲取數量",
+        "children": [
+          {"name": "FF", "value": 3534},
+          {"name": "FF", "value": 5731}
+          ]
+        },
+        {
+          "name": "科研：醫院容量",
+          "children": [
+          {"name": "建築：智慧神廟等級", "value": 3534},
+          {"name": "科研加速獲取數量", "value": 5731}
+          ]
+        }
+        ]
+      }
+     ]
+    }
+   ]
+  }

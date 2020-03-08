@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>精準行銷</title>
+
+</head>
+<body>
+
+  <header id="header">
+    <div class="container">
+      <nav>
+
+        <ul class="nav">
+          <li><a href="index.php">報告主頁</a></li>
+          <li><a href="">金額預測</a></li>
+          <li><a href="system.php">精準行銷</a></li>
+          <li><a href="resource.php">關聯推薦</a></li>
+          <li><a href="statistic.php">敘述統計</a></li>
+          <li><a href="aboutus.php">關於團隊</a></li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="home_bg">
+  <div class="container_table">
+    <div class="container_table_cell">
+      <h2>手機遊戲玩家的消費金額預測與行為分析-以Brutal Age為例</h2>
+    </div>
+  </div>
+<div class = "blank">
+  <p>                           </p>
+</div>
+
+
+<?php
+    echo "
+        <form method='post'>
+        <div class='resourcesystem'>
+            <h1>課金額預測系統</h1>
+            <p>經由下拉式選單挑選玩家範例(為0-7天遊戲數據)即可顯示針對該玩家45天之課金額預測</p>
+
+            <hr>
+            <h1> </h1>
+            <hr>
+            <div class='resourceform'>
+                <div class='formdis1'>
+                    <p>玩家範例</p>
+
+                    <select name='resource1'>
+                    <option value='recourcea'>玩家id:1617</option>
+                    <option value='recourcea'>玩家id:1639</option>
+                    <option value='recourcea'>玩家id:1672</option>
+                    <option value='recourcea'>玩家id:1685</option>
+                    <option value='recourcea'>玩家id:1791</option>
+                    <option value='recourcea'>玩家id:1874</option>
+                    <option value='recourcea'>玩家id:1887</option>
+                    <option value='recourcea'>玩家id:1893</option>
+                    <option value='recourcea'>玩家id:1897</option>
+                    <option value='recourcea'>玩家id:1898</option>
+                    <option value='recourcea'>玩家id:1973</option>
+                    <option value='recourcea'>玩家id:2209</option>
+                    <option value='recourcea'>玩家id:2235</option>
+                    <option value='recourcea'>玩家id:2409</option>
+                    <option value='recourcea'>玩家id:2427</option>
+                    <option value='recourcea'>玩家id:2573</option>
+                    <option value='recourcea'>玩家id:2826</option>
+                    <option value='recourcea'>玩家id:3486</option>
+                    <option value='recourcea'>玩家id:4425</option>
+                    <option value='recourcea'>玩家id:4482</option>
+                    <option value='recourcea'>玩家id:5588</option>
+                    <option value='recourcea'>玩家id:7007</option>
+                    <option value='recourcea'>玩家id:7250</option>
+                    <option value='recourcea'>玩家id:7309</option>
+                    <option value='recourcea'>玩家id:7360</option>
+                    <option value='recourcea'>玩家id:8053</option>
+
+
+
+                    </select>
+                </div>
+
+
+                <div class='formbutton'>
+                    <input type='submit' value='送出' onClick=\"this.form.action='system.php';this.form.submit();\">
+                </div>
+
+            </div>
+
+
+        </div>
+        </form>
+
+  <iframe src="example2.htm" width="100%" height="100%" frameborder="0" scrolling="no"> </iframe>
+<script>alert("此玩家45天預測課金額為166.86RMB")</script>
+
+
+  <!--footer-->
+  <footer id="footer">
+   <div class="container">
+     <div class="footer-content">
+       <p>Original data is from Datacastle.All Rights Reserved by tap4fun.</p>
+     </div>
+   </div>
+
+</body>
+</html>

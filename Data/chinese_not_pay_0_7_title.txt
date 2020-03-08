@@ -1,0 +1,6 @@
+echo "<option value='﻿建築：治療之泉等級'>﻿建築：治療之泉等級</option>";
+echo "<option value='建築：智慧神廟等級'>建築：智慧神廟等級</option>";
+echo "<option value='建築：瞭望塔等級'>建築：瞭望塔等級</option>";
+echo "<option value='建築加速獲取數量'>建築加速獲取數量</option>";
+echo "<option value='建築：據點傳送門等級'>建築：據點傳送門等級</option>";
+echo "<option value='建築：倉庫等級'>建築：倉庫等級</option>";

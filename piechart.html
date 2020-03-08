@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+<script src="https://www.amcharts.com/lib/3/pie.js"></script>
+<script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+<link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+<style>
+#chartdiv {
+	width		: 500px;
+	height		: 450px;
+	font-size	: 11px;
+}								</style>
+</head>
+<body>
+  <div id="chartdiv">
+  <script>
+  var chart = AmCharts.makeChart( "chartdiv", {
+    "type": "pie",
+    "theme": "light",
+    "dataProvider": [ {
+        "title": "C",
+        "value": 5
+      },
+  {
+    "title": "A",
+    "value": 87
+  } ,
+  {
+    "title": "B",
+    "value": 8
+  }
+  ],
+    "titleField": "title",
+    "valueField": "value",
+    "labelRadius": 5,
+
+    "radius": "42%",
+    "innerRadius": "60%",
+    "labelText": "[[title]]",
+    "export": {
+      "enabled": true
+    }
+  } );
+  </script></div>
+</body>
+</html>

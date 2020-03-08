@@ -1,0 +1,473 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=big5">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 15">
+<link id=Main-File rel=Main-File href="../newexample.htm">
+<link rel=File-List href=filelist.xml>
+<link rel=Stylesheet href=stylesheet.css>
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:.75in .7in .75in .7in;
+	mso-header-margin:.3in;
+	mso-footer-margin:.3in;}
+ruby
+	{ruby-align:left;}
+rt
+	{color:windowtext;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	mso-char-type:none;
+	display:none;}
+-->
+</style>
+<![if !supportTabStrip]><script language="JavaScript">
+<!--
+function fnUpdateTabs()
+ {
+  if (parent.window.g_iIEVer>=4) {
+   if (parent.document.readyState=="complete"
+    && parent.frames['frTabs'].document.readyState=="complete")
+   parent.fnSetActiveSheet(1);
+  else
+   window.setTimeout("fnUpdateTabs();",150);
+ }
+}
+
+if (window.name!="frSheet")
+ window.location.replace("../newexample.htm");
+else
+ fnUpdateTabs();
+//-->
+</script>
+<![endif]>
+</head>
+
+<body link="#0563C1" vlink="#954F72">
+
+<table border=0 cellpadding=0 cellspacing=0 width=177 style='border-collapse:
+ collapse;table-layout:fixed;width:132pt'>
+ <col width=59 span=3 style='width:44pt'>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 width=118 style='height:14.5pt;mso-ignore:colspan;
+  width:88pt'>字段解釋</td>
+  <td width=59 style='width:44pt'></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>玩家唯一ID</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>玩家注&#20876;時間</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>木頭獲取數量</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>木頭消耗數量</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>石頭獲取數量</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>石頭消耗數量</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>象牙獲取數量</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>象牙消耗數量</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>肉獲取數量</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>肉消耗數量</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>魔法獲取數量</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>魔法消耗數量</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>勇士招募數量</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>勇士損失數量</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>馴獸師招募數量</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>馴獸師損失數量</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>薩滿招募數量</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>薩滿損失數量</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>勇士傷兵&#29987;生數量</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>勇士傷兵恢復數量</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>馴獸師傷兵&#29987;生數量</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>馴獸師傷兵恢復數量</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>薩滿傷兵&#29987;生數量</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>薩滿傷兵恢復數量</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>通用加速獲取數量</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>通用加速使用數量</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>建築加速獲取數量</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>建築加速使用數量</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>科研加速獲取數量</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>科研加速使用數量</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>訓練加速獲取數量</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>訓練加速使用數量</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>治療加速獲取數量</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>治療加速使用數量</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>sr_scout_level</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>建築：治療小井等級</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>建築：要塞等級</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>建築：據點傳送門等級</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>建築：兵營等級</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>建築：治療之泉等級</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>建築：智慧神廟等級</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>建築：聯盟大廳等級</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>建築：倉庫等級</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>建築：瞭望塔等級</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>建築：魔法幸運樹等級</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>建築：戰爭大廳等級</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>建築：聯盟貨車等級</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>建築：占卜台等級</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>建築：祭壇等級</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>建築：冒險傳送門等級</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：偵查等級</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>科研：訓練速度等級</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：守護者</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>科研：巨獸馴獸師</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：吟唱者</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：勇士攻擊</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>科研：馴獸師攻擊</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：薩滿攻擊</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：戰鬥大師</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>科研：高階巨獸騎兵</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：圖騰大師</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：部隊防禦</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：勇士防禦</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>科研：馴獸師防禦</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：薩滿防禦</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：勇士生命</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>科研：馴獸師生命</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：薩滿生命</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：狂戰士</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：龍騎兵</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：神諭者</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：部隊攻擊</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：建造速度</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：資源保護</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：部隊消耗</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：木材生&#29987;</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：石頭生&#29987;</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：象牙生&#29987;</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：肉類生&#29987;</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：木材采集</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：石頭采集</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：象牙采集</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：肉類生&#29987;</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：部隊負重</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：魔法采集</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：魔法生&#29987;</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：據點耐久</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：據點二</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：醫院容量</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>科研：領土采集獎勵</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：治療速度</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：據點三</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>科研：聯盟行軍速度</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>科研：戰鬥行軍速度</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>科研：采集行軍速度</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：據點四</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>科研：增援部隊容量</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>科研：行軍大小</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>科研：資源幫助容量</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 style='height:14.5pt'>PVP次數</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>主動發起PVP次數</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>PVP勝利次數</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>PVE次數</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=3 style='height:14.5pt;mso-ignore:colspan'>主動發起PVE次數</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>PVE勝利次數</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>在&#32171;時長</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>付費金額</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>付費次數</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 colspan=2 style='height:14.5pt;mso-ignore:colspan'>45日付費金額</td>
+  <td></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=59 style='width:44pt'></td>
+  <td width=59 style='width:44pt'></td>
+  <td width=59 style='width:44pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>

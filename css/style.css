@@ -1,0 +1,507 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  background-color: #222;
+  z-index: 100;
+}
+#logo {
+  float: left;
+}
+.nav {
+  float: right;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav li a {
+  color: #fff;
+  text-transform: capitalize;
+  display: block;
+  padding: 10px 12px;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #ffffff;
+  font-family:"Microsoft JhengHei";, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+  padding: 0px;
+  font-family:"Microsoft JhengHei"; sans-serif;
+
+}
+
+
+ul, ol {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a, a:hover, a:focus {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+svg {
+    margin: -600px !important;
+    margin-left:-50px !important;
+
+}
+
+.container {
+  width: 85%;
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+.home_bg {
+  background-image: url(../images/main2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.container_table {
+  display: table;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.container_table_cell {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.container_table_cell h2 {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 54px;
+}
+.social_icons a {
+  color: #fff;
+  display: inline-block;
+  width: 30px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 19px;
+  margin-right: 7px;
+}
+
+.about_me {
+  padding: 100px 0;
+}
+h2 {
+  margin-bottom: 75px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  letter-s
+  acing: 2px;
+}
+.col-left, .col-right {
+  float: left;
+  width: 50%;
+  padding: 0 15px;
+}
+.personal-info h3 {
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+  text-transform: capitalize;
+}
+
+.personal-info p {
+  color: #767676;
+  line-height: 24px;
+  text-align: justify;
+}
+.skill {
+  margin: 30px auto;
+}
+
+.skill li {
+  font-size: 15px;
+  line-height: 35px;
+  text-transform: capitalize;
+  font-family:"Microsoft JhengHei";, sans-serif;
+}
+.button-group .download_cv, .button-group .hire_me {
+  display: inline-block;
+  text-align: center;
+}
+
+.button-group .download_cv {
+  margin: 18px;
+
+}
+
+
+
+.button-group a {
+  display: block;
+  color: #000;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 10px 38px;
+  text-transform: capitalize;
+
+}
+.button-group a:hover {
+  background: #000;
+  color: #fff;
+  -webkit-transition: all .4s linear;
+  -moz-transition: all .4s linear;
+  -ms-transition: all .4s linear;
+  -o-transition: all .4s linear;
+  transition: all .4s linear;
+}
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.quotes {
+  background-image: url(../images/main3_resized.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position:relative;
+  width: 100%;
+  margin: 100px 0px;
+  padding: 100px 0px;
+  background-attachment: fixed;
+
+}
+.quote-inner {
+  color: #fff;
+  text-align: center;
+}
+
+.quote-inner h3 {
+  font-size: 28px;
+  text-transform: capitalize;
+}
+
+.quote-inner p {
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.quote-inner a {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 11px;
+  padding: 12px 49px;
+  display: inline-block;
+  margin-top: 22px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.works {
+  background-color: #ffffff;
+}
+
+.col-work {
+
+  padding: 0 15px;
+  margin:auto;
+  width: 45%;
+  display: inline-block;
+}
+.work-items{
+  text-align:center;
+
+}
+.col-work a {
+  display: block;
+  margin-bottom: 14px;
+  position: relative;
+  -webkit-transition: .2s linear;
+  -moz-transition: .2s linear;
+  -ms-transition: .2s linear;
+  -o-transition: .2s linear;
+  transition: .2s linear;
+  top: 0;
+  left: 0;
+}
+
+.col-work a:hover {
+  box-shadow: 0 16px 22px 0 rgba(90, 91, 95, 0.3);
+  top: -5px;
+}
+
+.col-work h2{
+  padding:0px;
+  margin:auto;
+  color:black;
+}
+.contact-form {
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+}
+.contact-form .form-input:first-child,
+.contact-form .form-input:nth-child(2) {
+  float: left;
+  width: 50%;
+  padding: 0 15px;
+}
+
+.contact-form .form-input:nth-child(3) {
+  width: 100%;
+  padding: 0 15px;
+}
+.contact-form input.form-style {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #333;
+  text-transform: capitalize;
+  padding-bottom: 19px;
+  margin-bottom: 12px;
+  outline: none;
+}
+.contact-form textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #333;
+  outline: none;
+}
+.form-submit {
+  text-align: left;
+  padding: 0 15px;
+}
+
+.form-submit input {
+  font-size: 16px;
+  text-transform: capitalize;
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 12px;
+  padding: 15px 60px;
+  margin-top: 16px;
+  margin-bottom: 14px;
+  cursor: pointer;
+  -webkit-transition: .4s linear;
+  -moz-transition: .4s linear;
+  -ms-transition: .4s linear;
+  -o-transition: .4s linear;
+  transition: .4s linear;
+}
+
+.form-submit input:hover {
+  background-color: #000;
+  color: #fff;
+}
+footer {
+  padding: 80px 0;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-content p {
+  line-height: 22px;
+}
+.footer-social-icon a i {
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 15px;
+  margin-right: 15px;
+  font-family:"Microsoft JhengHei";, sans-serif;
+}
+
+.my_service {
+  padding: 100px 0;
+  background-color: #f9f9f9;
+}
+.service-content {
+  float: left;
+  width: 50%;
+  padding: 0 15px;
+}
+
+.service-content h3 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin-top: 13px;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.service-content p {
+  color: #767676;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align:center;
+}
+.service-content .button-group{
+  text-align: center;
+}
+
+.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+
+.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+
+#licensing {
+  fill: green;
+}
+
+.link.licensing {
+  stroke: green;
+}
+
+.link.resolved {
+  stroke-dasharray: 0,2 1;
+}
+
+circle {
+  fill: #ccc;
+  stroke: #333;
+  stroke-width: 1.5px;
+}
+
+text {
+  font: 10px sans-serif;
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}
+.resourcesystem{
+  background-color: #DDDDDD;
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+}
+.resourcesystem h1 , p{
+  text-align: center;
+}
+.resourcesystem h1{
+  font-size: 40px;
+}
+
+.resourcesystem h2{
+  font-size: 32px;
+  text-align: center;
+}
+.resourcesystem .resourceform{
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+.resourceform .formdis1{
+  display: inline;
+  float: center;
+}
+
+.formbutton{
+  text-align:right;
+  padding-bottom:30px;
+}
+.systemtitle{
+  margin:auto;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.systemtitle h1{
+  margin-top: 75px;
+  text-align: center;
+  font-size: 50px;
+}
+.systemtitle p{
+  text-align:center;
+  font-size:30px;
+}
+.tureresult{
+  margin:auto;
+  display:block:
+  background-color: rgba(0, 0, 0, 0.075);
+  padding:0% 20% 10% 20%;
+  margin:10px 10px;
+  height: 2000px;
+}
+.tureresult h3{
+  text-align:center;
+  font-size:36px;
+}
+
+
+.tureresult p{
+  text-align:center;
+  font-size:20px;
+}
+
+#chartdiv {
+  width: 100%;
+  height: 500px;
+}
+#chartdiva {
+  width		: 100%;
+	height		: 500px;
+	font-size	: 11px;
+}
+
+.amcharts-export-menu-top-right {
+  top: 10px;
+  right: 0;
+}
+.amcharts-pie-slice {
+  transform: scale(1);
+  transform-origin: 50% 50%;
+  transition-duration: 0.3s;
+  transition: all .3s ease-out;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  cursor: pointer;
+  box-shadow: 0 0 30px 0 #000;
+}
+
+.amcharts-pie-slice:hover {
+  transform: scale(1.1);
+  filter: url(#shadow);
+}
